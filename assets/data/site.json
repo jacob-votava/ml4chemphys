@@ -45,7 +45,7 @@
       {
         "name": "Jacob Votava",
         "affiliation": "Princeton University, CBE",
-        "bio": "Third year PhD student in the Webb and Davidson group with research in simulations of soft materials.",
+        "bio": "Third year PhD candidate in the Webb and Davidson groups researching conformational effects in liquid crystals and polymers using classical simulations, quantum chemical calculations, and machine learning methods.",
         "headshot": "assets/images/organizers_and_sponsors/jacob-votava.jpg",
         "linkedin": "https://www.linkedin.com/in/jacob-votava"
       },
@@ -60,7 +60,7 @@
     "advisors": [
       {
         "name": "Mike Webb",
-        "affiliation": "Princeton University, CBE",
+        "affiliation": "Princeton University, CBE, PMI",
         "bio": "Professor Webb's group broadly uses theory and simulation to characterize, understand, and guide the design of novel soft materials for health and sustainability applications.",
         "headshot": "assets/images/organizers_and_sponsors/webb_copy.jpg"
       },
@@ -133,7 +133,10 @@
       "hero": {
         "eyebrow": "Next Season",
         "title": "Generative Models in Chemical Physics",
-        "subtitle": "A spring 2026 series exploring generative models (diffusion models, transformers, VAEs. flow matching) and their applications in chemical physics."
+        "subtitle": "A spring 2026 series exploring generative models (diffusion models, transformers, VAEs. flow matching) and their applications in chemical physics.",
+        "image": "assets/images/tabs/gen_matl_header.jpg",
+        "imageAlt": "Generative models for chemical physics illustration",
+        "credit": "image credit: Tiwary, Pratyush, et al. \"Generative AI for computational chemistry: A roadmap to predicting emergent phenomena.\" Proceedings of the National Academy of Sciences 122.41 (2025): e2415655121."
       }
     }
   ]
