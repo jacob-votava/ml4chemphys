@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About | Machine Learning in Chemical Physics @ Princeton</title>
+  <meta name="description" content="About Machine Learning in Chemical Physics @ Princeton." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/site.js"></script>
+  <script defer src="assets/js/about.js"></script>
+</head>
+<body class="site" data-page="about">
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-logo" href="index.html" data-site-title>Machine Learning in Chemical Physics @ Princeton</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <button class="site-nav__toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav-panel">Menu</button>
+        <div class="site-nav__panel" id="site-nav-panel" data-nav-panel>
+          <ul class="site-nav__list site-nav__list--pages" data-page-nav></ul>
+          <a class="site-nav__action" data-join-link href="#">Join Us</a>
+          <ul class="site-nav__list" data-season-nav></ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <section class="hero hero--about" data-about-hero>
+      <div class="hero__content">
+        <p class="hero__eyebrow" data-hero-eyebrow>About</p>
+        <h1 class="hero__title" data-hero-title>About Machine Learning in Chemical Physics @ Princeton</h1>
+        <p class="hero__subtitle" data-hero-subtitle>
+          Each season curates a focused theme with slide decks, key references, and discussion points/presentations maintained for future readers. If you're interested in joining us as a speaker or as a participant, please reach out to the organizers!
+        </p>
+      </div>
+      <div class="hero__support hero__support--logo">
+        <img class="hero__support-logo" src="assets/images/tabs/gathering-tigers.png" alt="Machine Learning in Chemical Physics badge" />
+      </div>
+    </section>
+
+    <section class="about about--page" data-about-section>
+      <div class="about__content">
+        <div class="about__narrative" data-about-body></div>
+      </div>
+    </section>
+
+    <section class="people" data-organizers-section>
+      <div class="people__header">
+        <h2 class="people__title">Organizers</h2>
+        <p class="people__subtitle">Graduate student leads who coordinate programming and discussions.</p>
+      </div>
+      <div class="about__grid" data-about-organizers>
+        <article class="organizer-card organizer-card--placeholder">
+          <div class="organizer-card__body">
+            <h3 class="organizer-card__name">Add organizer profiles in assets/data/site.json</h3>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="people people--advisors" data-advisors-section>
+      <div class="people__header">
+        <h2 class="people__title">Faculty Advisors</h2>
+        <p class="people__subtitle">Faculty mentors guiding our seasonal themes and discussions.</p>
+      </div>
+      <div class="about__grid" data-about-advisors>
+        <article class="organizer-card organizer-card--placeholder">
+          <div class="organizer-card__body">
+            <h3 class="organizer-card__name">Add faculty advisors in assets/data/site.json</h3>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="sponsors" data-sponsor-section>
+      <div class="sponsors__inner">
+        <h2 class="sponsors__title">Sponsors</h2>
+        <p class="sponsors__intro">Recognizing the departments and centers that make this journal club possible.</p>
+        <div class="sponsors__grid" data-sponsor-grid></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span data-current-year></span> Machine Learning in Chemical Physics @ Princeton. Built for GitHub Pages.</p>
+  </footer>
+</body>
+</html>

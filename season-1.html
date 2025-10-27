@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Season 1 | Machine Learning in Chemical Physics @ Princeton</title>
+  <meta name="description" content="Season 1 focuses on machine-learned interatomic potentials." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/site.js"></script>
+  <script defer src="assets/js/season.js"></script>
+</head>
+<body class="site" data-page="season" data-season="season-1">
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-logo" href="index.html" data-site-title>Machine Learning in Chemical Physics @ Princeton</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <button class="site-nav__toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav-panel">Menu</button>
+        <div class="site-nav__panel" id="site-nav-panel" data-nav-panel>
+          <ul class="site-nav__list site-nav__list--pages" data-page-nav></ul>
+          <a class="site-nav__action" data-join-link href="#">Join Us</a>
+          <ul class="site-nav__list" data-season-nav></ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <section class="hero hero--season" data-season-hero>
+      <div class="hero__content">
+        <p class="hero__eyebrow" data-hero-eyebrow>Current Season</p>
+        <h1 class="hero__title" data-hero-title>Machine-Learned Interatomic Potentials</h1>
+        <p class="hero__subtitle" data-hero-subtitle>
+          We explore machine learned potentials, starting from Parinello's classic architecture and working our way up to modern foundation models!
+        </p>
+        <div class="hero__meta" data-hero-meta>
+          <span class="hero__meta-item" data-hero-presentations>0 presentations</span>
+          <span class="hero__meta-item" data-hero-range></span>
+        </div>
+      </div>
+      <div class="hero__support hero__support--logo" data-hero-media hidden>
+        <img class="hero__support-logo" data-hero-image alt="" hidden />
+        <p class="hero__support-credit" data-hero-credit hidden></p>
+      </div>
+    </section>
+
+    <section class="season" data-season-container>
+      <div class="season__header">
+        <h2 class="season__title">Season Sessions</h2>
+        <p class="season__description">Add your first presentation by editing the season data file.</p>
+      </div>
+      <div class="presentation-grid" data-presentation-grid>
+        <article class="presentation-card presentation-card--placeholder">
+          <div class="presentation-card__image" aria-hidden="true"></div>
+          <div class="presentation-card__body">
+            <h3 class="presentation-card__title">Your presentation here</h3>
+            <p class="presentation-card__meta">Swap in real content by editing the data file.</p>
+            <p class="presentation-card__summary">Once the JSON is updated, this placeholder disappears.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span data-current-year></span> Machine Learning in Chemical Physics @ Princeton. Built for GitHub Pages.</p>
+  </footer>
+</body>
+</html>

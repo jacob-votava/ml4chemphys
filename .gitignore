@@ -1,0 +1,33 @@
+# Node and bundler artifacts
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+dist/
+.build/
+.cache/
+.tmp/
+
+# Environments
+.env
+.env.*
+*.local
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+*.swp
+*.swo
+*.coverage
+coverage/

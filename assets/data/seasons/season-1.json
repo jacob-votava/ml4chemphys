@@ -1,0 +1,137 @@
+{
+  "id": "season-1",
+  "title": "Season 1: Machine-Learned Interatomic Potentials",
+  "lead": "We explore machine learned potentials, starting from Parinello's classic architecture and working our way up to modern foundation models!",
+  "listTitle": "Season 1 Sessions",
+  "listDescription": "Talks, resources, and papers from season 1",
+  "presentations": [
+    {
+      "title": "Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces",
+      "date": "2025-08-06",
+      "time": "12:30 PM",
+      "location": "Frick A57",
+      "presenter": "Jacob Votava",
+      "presenterLink": "https://www.linkedin.com/in/jacobvotava/",
+      "summary": "We walk thorugh Behler Parinello's seminal work on MLIPs, discussing the changes in architecture and historical context that made this work so impactful!",
+      "paper": {
+        "title": "Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces",
+        "authors": "J. Behler et al.",
+        "link": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.98.146401",
+        "screenshot": "assets/images/season-1/paper-1.png"
+      },
+      "resources": [
+                {
+          "type": "slides",
+          "label": "Download presentation",
+          "url": "assets/slides/season-1/MLP-JC-1.pptx"
+        }
+      ]
+    },
+
+    {
+      "title": "Deep Potential Molecular Dynamics: A Scalable Model with the Accuracy of Quantum Mechanics",
+      "date": "2025-08-13",
+      "time": "12:30 PM",
+      "location": "Frick A57",
+      "presenter": "Ryan Szukalo",
+      "presenterLink": "https://www.linkedin.com/in/ryanszukalo/",
+      "summary": "Introduction to DeepMD and its applications to large-scale molecular dynamics simulations with quantum accuracy.",
+      "paper": {
+        "title": "Deep Potential Molecular Dynamics: A Scalable Model with the Accuracy of Quantum Mechanics",
+        "authors": "Zhang et al.",
+        "link": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.143001",
+        "screenshot": "assets/images/season-1/paper-2.png"
+      },
+      "resources": [
+            {
+          "type": "slides",
+          "label": "Download presentation",
+          "url": "assets/slides/season-1/LiteratureMeeting_DP_08_13_2025.pptx"
+        }
+    
+      ]
+    },
+    {
+      "title": "E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials",
+      "date": "2025-08-20",
+      "time": "12:30 PM",
+      "location": "Frick A57",
+      "presenter": "Quinn Gallagher",
+      "presenterLink": "https://www.linkedin.com/in/quinn-gallagher-20758519b",
+      "summary": "Geometric ML applied to machine learned potentials.",
+      "paper": {
+        "title": "E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials",
+        "authors": "Batzner et al.",
+        "link": "https://www.nature.com/articles/s41467-022-29939-5",
+        "screenshot": "assets/images/season-1/paper-3.png"
+      },
+      "resources": [
+        {
+          "type": "slides",
+          "label": "Download presentation",
+          "url": "assets/slides/season-1/jc-nequip.pptx"
+        }
+      ]
+    },
+    {
+      "title": "UMA: A Family of Universal Models for Atoms",
+      "date": "2025-08-27",
+      "time": "12:30 PM",
+      "location": "Frick A57",
+      "presenter": "Wesley Oliver",
+      "presenterLink":"https://www.linkedin.com/in/wesley-oliver-a434b6132/",
+      "summary": "UMA foundation model, and general discussions on foundation models for interatomic potentials.",
+      "paper": {
+        "title": "UMA: A Family of Universal Models for Atoms",
+        "authors": "Wood et al.",
+        "link": "https://arxiv.org/pdf/2506.23971",
+        "screenshot": "assets/images/season-1/paper-4.png"
+      },
+      "resources": [
+        {
+          "type": "slides",
+          "label": "Download presentation",
+          "url": "assets/slides/season-1/journal_club_25_8_27.pptx"
+        }
+      ]
+    },
+    {
+      "title": "Graph neural networks for materials science and chemistry",
+      "date": "2025-09-03",
+      "time": "12:30 PM",
+      "location": "Frick A57",
+      "presenter": "Yury Polyachenko",
+      "summary": "Continued discussion of geometric ML in interatomic potentials.",
+      "paper": {
+        "title": "Bayesian error bars for ML potentials",
+        "authors": "Reiser et al.",
+        "link": "https://www.nature.com/articles/s43246-022-00315-6",
+        "screenshot": "assets/images/season-1/paper-5.png"
+      },
+      "resources": []
+    },
+    {
+      "title": "Navigating protein landscapes with a machine-learned transferable coarse-grained model",
+      "date": "2025-09-10",
+      "time": "12:30 PM",
+      "location": "Frick A57",
+      "presenter": "Moritz Obenauer",
+      "presenterLink": "https://www.linkedin.com/in/moritzobenauer/",
+      "summary": "Navigating protein landscapes with a machine-learned transferable coarse-grained model.",
+      "paper": {
+        "title": "Navigating protein landscapes with a machine-learned transferable coarse-grained model",
+        "authors": "Charron et al.",
+        "link": "https://www.nature.com/articles/s41557-025-01874-0",
+        "screenshot": "assets/images/season-1/paper-6.png"
+      },
+      "resources": [
+          {
+          "type": "slides",
+          "label": "Download presentation",
+          "url": "assets/slides/season-1/Nature2025-Talk.pptx"
+        }
+      ]
+
+    }
+  ]
+}

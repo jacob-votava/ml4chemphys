@@ -1,0 +1,140 @@
+{
+  "site": {
+    "title": "Machine Learning in Chemical Physics @ Princeton",
+    "tagline": "This group is for exploring machine learning in chemical physics, we're open to all!",
+    "currentSeason": "season-1"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "label": "Home",
+      "href": "index.html"
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "href": "about.html"
+    }
+  ],
+  "mailingList": {
+    "label": "Join Us",
+    "href": "https://example.com/journal-club-signup",
+    "openInNewTab": true
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Journal Club",
+      "title": "Machine Learning in Chemical Physics @ Princeton",
+      "subtitle": "Seasonal deep-dives into how molecular simulations, experiments, theory, and machine learning enable new discoveries in chemistry and physics. Open to all! Feel free to join, use our resources, or present work you're excited about.",
+      "cta": {
+        "label": "Explore Season 1",
+        "href": "season-1.html"
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About",
+      "title": "About Machine Learning in Chemical Physics @ Princeton",
+      "subtitle": "Each season curates a focused theme with slide decks, key references, and discussion points/presentations maintained for future readers. If you're interested in joining us as a speaker or as a participant, please reach out to the organizers!"
+    },
+    "body": [
+      "We are an open group of graduate students, postdocs, faculty, and friends from the surrounding community who study topics in chemical physics. Every few months we choose a topic and learn about it, bringing each other up to speed and exploring new literature."
+    ],
+    "organizers": [
+      {
+        "name": "Jacob Votava",
+        "affiliation": "Princeton University, CBE",
+        "bio": "Third year PhD student in the Webb and Davidson group with research in simulations of soft materials.",
+        "headshot": "assets/images/organizers_and_sponsors/jacob-votava.jpg",
+        "linkedin": "https://www.linkedin.com/in/jacob-votava"
+      },
+      {
+        "name": "Moritz Obenauer",
+        "affiliation": "Princeton University, CHM",
+        "bio": "Second year PhD student in the Jacobs group working on the dynamics of self-assembly processes of chemically driven systems.",
+        "headshot": "assets/images/organizers_and_sponsors/mortiz-obenauer.jpeg",
+        "linkedin": "https://www.linkedin.com/in/moritzobenauer/"
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Mike Webb",
+        "affiliation": "Princeton University, CBE",
+        "bio": "Professor Webb's group broadly uses theory and simulation to characterize, understand, and guide the design of novel soft materials for health and sustainability applications.",
+        "headshot": "assets/images/organizers_and_sponsors/webb_copy.jpg"
+      },
+      {
+        "name": "Will Jacobs",
+        "affiliation": "Princeton University, CHM",
+        "bio": "Professor Jacobs' group focuses on coarse-grained and machine-learned models to understand phase-separation and self-assembly in biomolecular systems in and out of equilibrium.",
+        "headshot": "assets/images/organizers_and_sponsors/will-jacobs.jpg"
+      },
+      {
+        "name": "Andrew Rosen",
+        "affiliation": "Princeton University, CBE",
+        "bio": "Professor Rosen's group applies electronic structure calculations and machine learning to guide the discovery of solid-state materials that can address global challenges in energy and sustainability. ",
+        "headshot": "assets/images/organizers_and_sponsors/rosen-headshot.jpg"
+      },
+      {
+        "name": "Emily Davidson",
+        "affiliation": "Princeton University, CBE, PMI",
+        "bio": "Professor Davidson's group focuses on using experimental chemistry and physics to understand hierarchical materials with applications in sustainability and additive manufacturing.",
+        "headshot": "assets/images/organizers_and_sponsors/rud6-mey.jpg"
+      }
+    ]
+  },
+  "sponsors": [
+    {
+      "name": "Princeton AI Lab",
+      "url": "https://ai.princeton.edu/ai-lab",
+      "note": "Sponsor",
+      "logo": "assets/images/organizers_and_sponsors/ai-lab-logo.png"
+    },
+    {
+      "name": "Webb Group, Princeton University",
+      "url": "https://webbgroup.princeton.edu/",
+      "note": "Sponsor",
+      "logo": "assets/images/organizers_and_sponsors/webb-logo.png"
+    },
+    {
+      "name": "Jacobs Group, Princeton University",
+      "note": "Sponsor",
+      "url": "https://jacobs.princeton.edu",
+      "logo": "assets/images/organizers_and_sponsors/jacobs-chem-logo.png"
+    }
+  ],
+  "seasons": [
+    {
+      "id": "season-1",
+      "title": "Season 1: Machine-Learned Interatomic Potentials",
+      "shortTitle": "Season 1",
+      "description": "Machine learned interatomic potentials, from Behler-Parinello to foundation models and coarse-graining.",
+      "dates": "Summer 2025",
+      "page": "season-1.html",
+      "status": "active",
+      "hero": {
+        "eyebrow": "Current Season",
+        "title": "Machine-Learned Interatomic Potentials",
+        "subtitle": "We explore machine learned potentials, starting from Parinello's classic architecture and working our way up to modern foundation models!",
+        "image": "assets/images/tabs/mlip_header.png",
+        "imageAlt": "Visualization for machine-learned interatomic potentials",
+        "credit": "image credit: Friederich, Pascal, et al. \"Machine-learned potentials for next-generation matter simulations.\" Nature Materials 20.6 (2021): 750-761."
+      }
+    },
+    {
+      "id": "season-2",
+      "title": "Generative Models in Chemical Physics",
+      "shortTitle": "Season 2",
+      "description": "Upcoming lineup on generative models in materials design and discovery.",
+      "dates": "Spring 2026",
+      "page": "season-2.html",
+      "status": "upcoming",
+      "hero": {
+        "eyebrow": "Next Season",
+        "title": "Generative Models in Chemical Physics",
+        "subtitle": "A spring 2026 series exploring generative models (diffusion models, transformers, VAEs. flow matching) and their applications in chemical physics."
+      }
+    }
+  ]
+}
