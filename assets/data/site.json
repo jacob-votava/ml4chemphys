@@ -85,11 +85,10 @@
     ]
   },
   "sponsors": [
-    {
-      "name": "Princeton AI Lab",
-      "url": "https://ai.princeton.edu/ai-lab",
+    {"name": "AI² Princeton: AI for accelerating invention",
+      "url": "https://invent.ai.princeton.edu/about",
       "note": "Sponsor",
-      "logo": "assets/images/organizers_and_sponsors/ai-lab-logo.png"
+      "logo": "assets/images/organizers_and_sponsors/ai2.png"
     },
     {
       "name": "Webb Group, Princeton University",
