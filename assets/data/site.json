@@ -132,7 +132,7 @@
       "hero": {
         "eyebrow": "Current Season",
         "title": "Generative Models in Chemical Physics",
-        "subtitle": "A spring 2026 series exploring generative models (diffusion models, transformers, VAEs. flow matching) and their applications in chemical physics. With external speaker Tim Berkelbach kindly agreeing to give the final keynote!",
+        "subtitle": "A spring 2026 series exploring generative models (diffusion models, transformers, VAEs. flow matching) and their applications in chemical physics—with an external keynote speaker to finish us off (TBA).",
         "image": "assets/images/tabs/gen_matl_header.jpg",
         "imageAlt": "Generative models for chemical physics illustration",
         "credit": "image credit: Tiwary, Pratyush, et al. \"Generative AI for computational chemistry: A roadmap to predicting emergent phenomena.\" Proceedings of the National Academy of Sciences 122.41 (2025): e2415655121."
