@@ -9,7 +9,14 @@
       "date": "2026-02-10",
       "presenter": "Quinn Gallagher",
       "time": "12:00 PM",
-      "location": "AI Lab Conference Room"
+      "location": "AI Lab Conference Room",
+      "summary": "Contrastive learning and generative models for coarse-graining of complex fluids.",
+      "paper": {
+        "title": "Coarse-graining molecular systems with graph contrastive learning",
+        "authors": "Hythem Sidky, Wei Chen, Andrew L. Ferguson",
+        "link": "https://pubs.rsc.org/en/content/articlelanding/2020/sc/d0sc03635h",
+        "screenshot": "assets/images/season-2/paper-1.png"
+      }
     },
     {
       "title": "Autoencoders and Variational Autoencoders",
