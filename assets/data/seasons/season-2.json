@@ -5,14 +5,18 @@
   "listDescription": "Spring 2026 schedule and speaker lineup.",
   "presentations": [
     {
-       "title": "Generative Adversarial Networks",
+      "title": "Generative Adversarial Networks",
       "date": "2026-02-10",
-      "presenter": "Quinn Gallagher"
+      "presenter": "Quinn Gallagher",
+      "time": "12:00 PM",
+      "location": "AI Lab Conference Room"
     },
     {
       "title": "Autoencoders and Variational Autoencoders",
       "date": "2026-02-17",
       "presenter": "Bruce Jiang",
+      "time": "12:00 PM",
+      "location": "AI Lab Conference Room",
       "summary": "Variational autoencoders for property-guided generation of complex polymer topologies.",
       "paper": {
         "title": "Property-guided generation of complex polymer topologies using variational autoencoders",
@@ -24,12 +28,16 @@
     {
       "title": "Reinforcement Learning",
       "date": "2026-02-24",
-      "presenter": "Wes Oliver"
+      "presenter": "Wes Oliver",
+      "time": "12:00 PM",
+      "location": "AI Lab Conference Room"
     },
     {
       "title": "Flow Matching",
       "date": "2026-03-03",
       "presenter": "Philippe Baron",
+      "time": "12:00 PM",
+      "location": "AI Lab Conference Room",
       "summary": "Conditional Boltzmann Generators for efficient mapping of phase diagrams with normalizing flows.",
       "paper": {
         "title": "Efficient mapping of phase diagrams with conditional Boltzmann Generators",
@@ -41,7 +49,9 @@
     {
       "title": "Large Language Models",
       "date": "2026-03-10",
-      "presenter": "Zhuang Liu"
+      "presenter": "Zhuang Liu",
+      "time": "12:00 PM",
+      "location": "AI Lab Conference Room"
     }
   ]
 }
