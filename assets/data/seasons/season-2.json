@@ -12,7 +12,14 @@
     {
       "title": "Autoencoders and Variational Autoencoders",
       "date": "2026-02-17",
-      "presenter": "Bruce Jiang"
+      "presenter": "Bruce Jiang",
+      "summary": "Variational autoencoders for property-guided generation of complex polymer topologies.",
+      "paper": {
+        "title": "Property-guided generation of complex polymer topologies using variational autoencoders",
+        "authors": "Shengli Jiang, Adji Bousso Dieng, Michael A. Webb",
+        "link": "https://www.nature.com/articles/s41524-024-01328-0",
+        "screenshot": "assets/images/season-2/paper-2.png"
+      }
     },
     {
       "title": "Reinforcement Learning",
@@ -22,7 +29,14 @@
     {
       "title": "Flow Matching",
       "date": "2026-03-03",
-      "presenter": "Philippe Baron"
+      "presenter": "Philippe Baron",
+      "summary": "Conditional Boltzmann Generators for efficient mapping of phase diagrams with normalizing flows.",
+      "paper": {
+        "title": "Efficient mapping of phase diagrams with conditional Boltzmann Generators",
+        "authors": "Maximilian Schebek, Michele Invernizzi, Frank Noé, Jutta Rogal",
+        "link": "https://iopscience.iop.org/article/10.1088/2632-2153/ad849d",
+        "screenshot": "assets/images/season-2/paper-4.png"
+      }
     },
     {
       "title": "Large Language Models",
