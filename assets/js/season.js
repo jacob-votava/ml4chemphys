@@ -348,10 +348,8 @@
 
   function buildSeasonDateRange(presentations, fallback) {
     const dates = presentations
-      .map((presentation) => presentation.date)
+      .map((presentation) => parseDateValue(presentation.date))
       .filter(Boolean)
-      .map((value) => new Date(value))
-      .filter((date) => !Number.isNaN(date.valueOf()))
       .sort((a, b) => a - b);
 
     if (dates.length === 0) {
@@ -368,13 +366,13 @@
   }
 
   function comparePresentations(a, b) {
-    const dateA = new Date(a.date || 0).valueOf();
-    const dateB = new Date(b.date || 0).valueOf();
-    if (!Number.isNaN(dateA) && !Number.isNaN(dateB)) {
-      return dateA - dateB;
+    const dateA = parseDateValue(a.date);
+    const dateB = parseDateValue(b.date);
+    if (dateA && dateB) {
+      return dateA.valueOf() - dateB.valueOf();
     }
-    if (!Number.isNaN(dateA)) return -1;
-    if (!Number.isNaN(dateB)) return 1;
+    if (dateA) return -1;
+    if (dateB) return 1;
     return String(a.title || '').localeCompare(String(b.title || ''));
   }
 
@@ -392,8 +390,8 @@
   }
 
   function formatDate(input, options = {}) {
-    const date = input instanceof Date ? input : new Date(input);
-    if (Number.isNaN(date.valueOf())) return String(input);
+    const date = parseDateValue(input);
+    if (!date) return String(input);
 
     const locale = navigator.language || 'en-US';
     const config = { month: 'short', day: 'numeric' };
@@ -401,6 +399,23 @@
       config.year = 'numeric';
     }
     return date.toLocaleDateString(locale, config);
+  }
+
+  function parseDateValue(value) {
+    if (!value) return null;
+    if (value instanceof Date && !Number.isNaN(value.valueOf())) return value;
+
+    if (typeof value === 'string') {
+      const match = value.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+      if (match) {
+        const [, year, month, day] = match;
+        const date = new Date(Number(year), Number(month) - 1, Number(day));
+        if (!Number.isNaN(date.valueOf())) return date;
+      }
+    }
+
+    const parsed = new Date(value);
+    return Number.isNaN(parsed.valueOf()) ? null : parsed;
   }
 
   function formatResourceLabel(type) {
