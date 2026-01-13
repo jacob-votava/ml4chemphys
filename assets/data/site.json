@@ -2,7 +2,7 @@
   "site": {
     "title": "Machine Learning in Chemical Physics @ Princeton",
     "tagline": "This group is for exploring machine learning in chemical physics, we're open to all!",
-    "currentSeason": "season-1"
+    "currentSeason": "season-2"
   },
   "pages": [
     {
@@ -27,8 +27,8 @@
       "title": "Machine Learning in Chemical Physics @ Princeton",
       "subtitle": "Seasonal deep-dives into how molecular simulations, experiments, theory, and machine learning enable new discoveries in chemistry and physics. Open to all! Feel free to join, use our resources, or present work you're excited about. For talks--I (Jacob) am a strong believer in the power of free food, as such we will always look to provide some sort of snack for the in-person sessions. We will also hold online sessions in conjunction so anyone, anywhere can join in on the discussions!",
       "cta": {
-        "label": "Explore Season 1",
-        "href": "season-1.html"
+        "label": "Explore Season 2",
+        "href": "season-2.html"
       }
     }
   },
@@ -111,9 +111,9 @@
       "description": "Machine learned interatomic potentials, from Behler-Parinello to foundation models and coarse-graining.",
       "dates": "Summer 2025",
       "page": "season-1.html",
-      "status": "active",
+      "status": "archived",
       "hero": {
-        "eyebrow": "Current Season",
+        "eyebrow": "Previous Season",
         "title": "Machine-Learned Interatomic Potentials",
         "subtitle": "We explore machine learned potentials, starting from Parinello's classic architecture and working our way up to modern foundation models!",
         "image": "assets/images/tabs/mlip_header.png",
@@ -125,14 +125,14 @@
       "id": "season-2",
       "title": "Generative Models in Chemical Physics",
       "shortTitle": "Season 2",
-      "description": "Upcoming lineup on generative models in materials design and discovery.",
+      "description": "Spring 2026 lineup on generative models in materials design and discovery.",
       "dates": "Spring 2026",
       "page": "season-2.html",
-      "status": "upcoming",
+      "status": "active",
       "hero": {
-        "eyebrow": "Next Season",
+        "eyebrow": "Current Season",
         "title": "Generative Models in Chemical Physics",
-        "subtitle": "A spring 2026 series exploring generative models (diffusion models, transformers, VAEs. flow matching) and their applications in chemical physics.",
+        "subtitle": "A spring 2026 series exploring generative models (diffusion models, transformers, VAEs. flow matching) and their applications in chemical physics. With external speaker Tim Berkelbach kindly agreeing to give the final keynote!",
         "image": "assets/images/tabs/gen_matl_header.jpg",
         "imageAlt": "Generative models for chemical physics illustration",
         "credit": "image credit: Tiwary, Pratyush, et al. \"Generative AI for computational chemistry: A roadmap to predicting emergent phenomena.\" Proceedings of the National Academy of Sciences 122.41 (2025): e2415655121."
