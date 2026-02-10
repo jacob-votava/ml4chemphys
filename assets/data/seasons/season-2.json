@@ -16,7 +16,8 @@
         "authors": "Hythem Sidky, Wei Chen, Andrew L. Ferguson",
         "link": "https://pubs.rsc.org/en/content/articlelanding/2020/sc/d0sc03635h",
         "screenshot": "assets/images/season-2/paper-1.png"
-      }
+      },
+      "slides": "assets/slides/season-2/jc-gans.pptx"
     },
     {
       "title": "Autoencoders and Variational Autoencoders",
@@ -37,10 +38,16 @@
       "date": "2026-02-24",
       "presenter": "Wes Oliver",
       "time": "12:00 PM",
-      "location": "AI Lab Conference Room"
+      "location": "AI Lab Conference Room",
+      "summary": "Deep reinforcement learning approaches for de novo molecular design.",
+      "paper": {
+        "title": "Deep reinforcement learning for de novo drug design",
+        "link": "https://www.science.org/doi/epdf/10.1126/sciadv.aap7885",
+        "screenshot": "assets/images/season-2/paper-3.png"
+      }
     },
     {
-      "title": "Flow Matching",
+      "title": "Normalizing Flows",
       "date": "2026-03-03",
       "presenter": "Philippe Baron",
       "time": "12:00 PM",
