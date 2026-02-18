@@ -17,7 +17,13 @@
         "link": "https://pubs.rsc.org/en/content/articlelanding/2020/sc/d0sc03635h",
         "screenshot": "assets/images/season-2/paper-1.png"
       },
-      "slides": "assets/slides/season-2/jc-gans.pptx"
+      "resources": [
+        {
+          "type": "slides",
+          "label": "Download presentation",
+          "url": "assets/slides/season-2/jc-gans.pptx"
+        }
+      ]
     },
     {
       "title": "Autoencoders and Variational Autoencoders",
@@ -31,7 +37,14 @@
         "authors": "Shengli Jiang, Adji Bousso Dieng, Michael A. Webb",
         "link": "https://www.nature.com/articles/s41524-024-01328-0",
         "screenshot": "assets/images/season-2/paper-2.png"
-      }
+      },
+      "resources": [
+        {
+          "type": "slides",
+          "label": "Download presentation",
+          "url": "assets/slides/season-2/ae_vae_jiang.pdf"
+        }
+      ]
     },
     {
       "title": "Reinforcement Learning",
