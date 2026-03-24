@@ -79,7 +79,14 @@
         "authors": "Mariya Popova, Olexandr Isayev, Alexander Tropsha",
         "link": "https://www.science.org/doi/epdf/10.1126/sciadv.aap7885",
         "screenshot": "assets/images/season-2/paper-3.png"
-      }
+      },
+      "resources": [
+        {
+          "type": "slides",
+          "label": "Download presentation",
+          "url": "assets/slides/season-2/wes_rl.pptx"
+        }
+      ]
     },
     {
       "title": "Large Language Models",
