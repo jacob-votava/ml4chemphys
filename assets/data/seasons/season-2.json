@@ -58,17 +58,25 @@
         "authors": "Maximilian Schebek, Michele Invernizzi, Frank Noé, Jutta Rogal",
         "link": "https://iopscience.iop.org/article/10.1088/2632-2153/ad849d",
         "screenshot": "assets/images/season-2/paper-4.png"
-      }
+      },
+      "resources": [
+        {
+          "type": "slides",
+          "label": "Download presentation",
+          "url": "assets/slides/season-2/phil_flow.pptx"
+        }
+      ]
     },
     {
       "title": "Reinforcement Learning",
       "date": "2026-03-24",
       "presenter": "Wes Oliver",
-      "time": "12:00 PM",
-      "location": "AI Lab Conference Room",
+      "time": "2:00 PM",
+      "location": "Bendheim House, Classroom 103",
       "summary": "Deep reinforcement learning approaches for de novo molecular design.",
       "paper": {
         "title": "Deep reinforcement learning for de novo drug design",
+        "authors": "Mariya Popova, Olexandr Isayev, Alexander Tropsha",
         "link": "https://www.science.org/doi/epdf/10.1126/sciadv.aap7885",
         "screenshot": "assets/images/season-2/paper-3.png"
       }
