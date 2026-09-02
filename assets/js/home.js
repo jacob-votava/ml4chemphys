@@ -1,14 +1,7 @@
 (function () {
-  document.addEventListener('DOMContentLoaded', initHome);
   document.addEventListener('site:data', (event) => {
     renderHome(event.detail);
   });
-
-  function initHome() {
-    if (window.siteData) {
-      renderHome(window.siteData);
-    }
-  }
 
   function renderHome(data) {
     renderHero(data?.home?.hero, data?.site?.currentSeason);
