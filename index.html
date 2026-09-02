@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#14171c" media="(prefers-color-scheme: dark)" />
   <title>Machine Learning in Chemical Physics @ Princeton</title>
   <meta name="description" content="Machine Learning in Chemical Physics @ Princeton explores ML methods across chemistry and physics." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,7 +19,7 @@
 <body class="site" data-page="home">
   <header class="site-header">
     <div class="site-header__inner">
-      <a class="site-logo" href="index.html" data-site-title>Machine Learning in Chemical Physics @ Princeton</a>
+      <a class="site-logo" href="index.html" data-site-title>ML in Chemical Physics @ Princeton</a>
       <nav class="site-nav" aria-label="Primary navigation">
         <button class="site-nav__toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav-panel">Menu</button>
         <div class="site-nav__panel" id="site-nav-panel" data-nav-panel>
@@ -31,17 +34,18 @@
   <main class="site-main">
     <section class="hero" data-home-hero>
       <div class="hero__content">
-        <p class="hero__eyebrow" data-hero-eyebrow>Princeton Journal Club</p>
-        <h1 class="hero__title" data-hero-title>Machine Learning at the Chemistry–Physics Interface</h1>
+        <p class="hero__eyebrow" data-hero-eyebrow>Journal Club</p>
+        <h1 class="hero__title" data-hero-title>Machine Learning in Chemical Physics @ Princeton</h1>
         <p class="hero__subtitle" data-hero-subtitle>
-          Seasonal deep dives into how data-driven methods impact molecular simulations, experiments, and theory. Open to all who are interested!
+          Seasonal deep-dives into how molecular simulations, experiments, theory, and machine learning enable new discoveries in chemistry and physics. Open to all! Feel free to join, use our resources, or present work you're excited about. For talks--I (Jacob) am a strong believer in the power of free food, as such we will always look to provide some sort of snack for the in-person sessions. We will also hold online sessions in conjunction so anyone, anywhere can join in on the discussions!
         </p>
         <div class="hero__actions">
-          <a class="hero__cta" data-hero-cta href="season-1.html">Explore Season 1</a>
+          <a class="hero__cta" data-hero-cta href="season-3.html">Explore Season 3</a>
         </div>
       </div>
       <div class="hero__support hero__support--logo">
-        <img class="hero__support-logo" src="assets/images/tabs/home.png" alt="Machine Learning in Chemical Physics journal club badge" />
+        <img class="hero__support-logo hero__support-logo--framed" src="assets/images/tabs/home.png" alt="Rendered snapshot of bulk water molecules from a machine-learned potential simulation" />
+        <p class="hero__support-credit">A render of a simulation of bulk water simulated with the UMA foundation machine learned potential, run on Princeton's cluster, allowing us to access DFT quality data at unprecedented timescales.</p>
       </div>
     </section>
 
@@ -56,10 +60,10 @@
     <section class="subscribe-section">
       <div class="subscribe-container">
         <h2 class="subscribe-title">Stay Updated</h2>
-        <a class="site-nav__action" data-join-link href="https://lists.princeton.edu/cgi-bin/wa?SUBED1=ml4chemphys">Subscribe to the mailing list</a>
-
-        <a class="site-nav__action" data-join-link href="https://calendar.google.com/calendar/ical/c_9c6d360c5ef876d99416077bf9fd763e6cd2a0dbc2fec9d1304b78794afd542a%40group.calendar.google.com/public/basic.ics">Subscribe to the iCal Calendar</a>
-
+        <p class="subscribe-description">Session announcements land in your inbox, and every talk lands on your calendar.</p>
+        <div class="subscribe-actions">
+          <a class="subscribe-link" href="https://lists.princeton.edu/cgi-bin/wa?SUBED1=ml4chemphys" target="_blank" rel="noopener noreferrer">Subscribe to the mailing list</a>
+          <a class="subscribe-link" href="https://calendar.google.com/calendar/ical/c_9c6d360c5ef876d99416077bf9fd763e6cd2a0dbc2fec9d1304b78794afd542a%40group.calendar.google.com/public/basic.ics">Subscribe to the iCal Calendar</a>
         </div>
       </div>
     </section>

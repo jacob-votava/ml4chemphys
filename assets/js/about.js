@@ -1,14 +1,7 @@
 (function () {
-  document.addEventListener('DOMContentLoaded', initAbout);
   document.addEventListener('site:data', (event) => {
     renderAbout(event.detail);
   });
-
-  function initAbout() {
-    if (window.siteData) {
-      renderAbout(window.siteData);
-    }
-  }
 
   function renderAbout(data) {
     const about = data?.about;

@@ -11,7 +11,7 @@
     try {
       const [seasonData, siteData] = await Promise.all([
         loadSeasonData(seasonId),
-        loadSiteData()
+        whenSiteData()
       ]);
 
       renderSeasonHero(seasonData, siteData, seasonId);
@@ -23,22 +23,19 @@
   }
 
   async function loadSeasonData(seasonId) {
-    const response = await fetch(`assets/data/seasons/${seasonId}.json`, { cache: 'no-store' });
+    const response = await fetch(`assets/data/seasons/${seasonId}.json`);
     if (!response.ok) {
       throw new Error(`Failed to load season data (${response.status})`);
     }
     return response.json();
   }
 
-  async function loadSiteData() {
-    if (window.siteData) return window.siteData;
-    const response = await fetch('assets/data/site.json', { cache: 'no-store' });
-    if (!response.ok) {
-      throw new Error(`Failed to load site data (${response.status})`);
-    }
-    const data = await response.json();
-    window.siteData = data;
-    return data;
+  // site.js owns the site.json fetch; wait for it instead of fetching again.
+  function whenSiteData() {
+    if (window.siteData) return Promise.resolve(window.siteData);
+    return new Promise((resolve) => {
+      document.addEventListener('site:data', (event) => resolve(event.detail), { once: true });
+    });
   }
 
   function renderSeasonHero(seasonData, siteData, seasonId) {
@@ -102,12 +99,10 @@
           heroImage.src = imageSrc;
           heroImage.alt = imageAlt || heroImage.alt || '';
           heroImage.hidden = false;
-          heroImage.removeAttribute('hidden');
           hasMedia = true;
         } else {
           heroImage.removeAttribute('src');
           heroImage.hidden = true;
-          heroImage.setAttribute('hidden', '');
         }
       }
 
@@ -115,21 +110,14 @@
         if (creditText) {
           heroCredit.textContent = creditText;
           heroCredit.hidden = false;
-          heroCredit.removeAttribute('hidden');
           hasMedia = true;
         } else {
           heroCredit.textContent = '';
           heroCredit.hidden = true;
-          heroCredit.setAttribute('hidden', '');
         }
       }
 
       mediaWrapper.hidden = !hasMedia;
-      if (hasMedia) {
-        mediaWrapper.removeAttribute('hidden');
-      } else {
-        mediaWrapper.setAttribute('hidden', '');
-      }
       if (heroSection) {
         heroSection.classList.toggle('hero--season--with-media', hasMedia);
       }
@@ -207,7 +195,7 @@
 
     const title = document.createElement('h3');
     title.className = 'presentation-card__title';
-    const titleText = presentation.title || presentation.paper?.title || 'Untitled session';
+    const titleText = presentation.title || presentation.paper?.title || '';
     if (paperLink) {
       const titleLink = document.createElement('a');
       titleLink.className = 'presentation-card__title-link';
@@ -231,7 +219,7 @@
     const links = buildResourceLinks(presentation.resources || []);
     const tags = buildTagList(presentation.tags || presentation.paper?.tags || []);
 
-    body.appendChild(title);
+    if (titleText) body.appendChild(title);
     if (meta.textContent.trim()) body.appendChild(meta);
     if (summary.textContent.trim()) body.appendChild(summary);
     if (links) body.appendChild(links);

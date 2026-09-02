@@ -1,0 +1,59 @@
+{
+  "id": "season-3",
+  "title": "Machine Learning Through the Lens of Statistical Mechanics",
+  "listTitle": "Season 3 Sessions",
+  "listDescription": "Fall 2026 schedule and speaker lineup. LOCATION: PU Press Building 274 (41 Williams St, second floor conference room). Note: the Oct 6 session meets at 4:00 PM, and there is no session on Oct 20 (fall recess).",
+  "presentations": [
+    {
+      "title": "Introduction and Hopfield Networks",
+      "date": "2026-09-15",
+      "presenter": "Jacob Votava",
+      "presenterLink": "https://www.linkedin.com/in/jacobvotava/",
+      "time": "12:30 PM",
+      "location": "41 Williams St 274"
+    },
+    {
+      "title": "Hard Sphere Phase Transitions",
+      "date": "2026-09-22",
+      "presenter": "Sam Dawley",
+      "presenterLink": "https://www.linkedin.com/in/sam-dawley-0ab5651a8/",
+      "time": "12:30 PM",
+      "location": "41 Williams St 274"
+    },
+    {
+      "title": "",
+      "date": "2026-09-29",
+      "presenter": "Andrea Aude",
+      "presenterLink": "https://www.linkedin.com/in/andreaaude/",
+      "time": "12:30 PM",
+      "location": "41 Williams St 274"
+    },
+    {
+      "title": "",
+      "date": "2026-10-06",
+      "presenter": "Bethany Yuan",
+      "presenterLink": "https://www.linkedin.com/in/bethany-beijia-yuan-94b715184/",
+      "time": "4:00 PM",
+      "location": "41 Williams St 274"
+    },
+    {
+      "title": "",
+      "date": "2026-10-13",
+      "presenter": "Isabella Furrick",
+      "presenterLink": "https://www.linkedin.com/in/isabella-furrick-452294192/",
+      "time": "12:30 PM",
+      "location": "41 Williams St 274"
+    },
+    {
+      "title": "A statistical physics framework for optimal learning",
+      "date": "2026-10-27",
+      "presenter": "Francesca Mignacco (CPBF Fellow)",
+      "time": "12:30 PM",
+      "location": "41 Williams St 274",
+      "paper": {
+        "title": "A statistical physics framework for optimal learning",
+        "link": "https://doi.org/10.1093/pnasnexus/pgag182"
+      }
+    }
+  ]
+}

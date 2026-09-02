@@ -1,8 +1,9 @@
 {
   "site": {
     "title": "Machine Learning in Chemical Physics @ Princeton",
+    "shortTitle": "ML in Chemical Physics @ Princeton",
     "tagline": "This group is for exploring machine learning in chemical physics, we're open to all!",
-    "currentSeason": "season-2"
+    "currentSeason": "season-3"
   },
   "pages": [
     {
@@ -27,8 +28,8 @@
       "title": "Machine Learning in Chemical Physics @ Princeton",
       "subtitle": "Seasonal deep-dives into how molecular simulations, experiments, theory, and machine learning enable new discoveries in chemistry and physics. Open to all! Feel free to join, use our resources, or present work you're excited about. For talks--I (Jacob) am a strong believer in the power of free food, as such we will always look to provide some sort of snack for the in-person sessions. We will also hold online sessions in conjunction so anyone, anywhere can join in on the discussions!",
       "cta": {
-        "label": "Explore Season 2",
-        "href": "season-2.html"
+        "label": "Explore Season 3",
+        "href": "season-3.html"
       }
     }
   },
@@ -45,14 +46,14 @@
       {
         "name": "Jacob Votava",
         "affiliation": "Princeton University, CBE",
-        "bio": "Third year PhD candidate in the Webb and Davidson groups researching conformational effects in liquid crystals and polymers using classical simulations, quantum chemical calculations, and machine learning methods.",
+        "bio": "Fourth year PhD candidate in the Webb and Davidson groups researching conformational effects in liquid crystals and polymers using classical simulations, quantum chemical calculations, and machine learning methods.",
         "headshot": "assets/images/organizers_and_sponsors/jacob-votava.jpg",
         "linkedin": "https://www.linkedin.com/in/jacob-votava"
       },
       {
         "name": "Moritz Obenauer",
         "affiliation": "Princeton University, CHM",
-        "bio": "Second year PhD candidate in the Jacobs group working on the dynamics of self-assembly processes of chemically driven systems.",
+        "bio": "Third year PhD candidate in the Jacobs group working on the dynamics of self-assembly processes of chemically driven systems.",
         "headshot": "assets/images/organizers_and_sponsors/mortiz-obenauer.jpeg",
         "linkedin": "https://www.linkedin.com/in/moritzobenauer/"
       }
@@ -106,7 +107,7 @@
   "seasons": [
     {
       "id": "season-1",
-      "title": "Season 1: Machine-Learned Interatomic Potentials",
+      "title": "Machine-Learned Interatomic Potentials",
       "shortTitle": "Season 1",
       "description": "Machine learned interatomic potentials, from Behler-Parinello to foundation models and coarse-graining.",
       "dates": "Summer 2025",
@@ -128,14 +129,31 @@
       "description": "Spring 2026 lineup on generative models in materials design and discovery.",
       "dates": "Spring 2026",
       "page": "season-2.html",
-      "status": "active",
+      "status": "archived",
       "hero": {
-        "eyebrow": "Current Season",
+        "eyebrow": "Previous Season",
         "title": "Generative Models in Chemical Physics",
-        "subtitle": "A spring 2026 series exploring generative models (diffusion models, transformers, VAEs. flow matching) and their applications in chemical physics—with an external keynote speaker to finish us off (TBA).",
+        "subtitle": "A spring 2026 series exploring generative models (diffusion models, transformers, VAEs, flow matching) and their applications in chemical physics.",
         "image": "assets/images/tabs/gen_matl_header.jpg",
         "imageAlt": "Generative models for chemical physics illustration",
         "credit": "image credit: Tiwary, Pratyush, et al. \"Generative AI for computational chemistry: A roadmap to predicting emergent phenomena.\" Proceedings of the National Academy of Sciences 122.41 (2025): e2415655121."
+      }
+    },
+    {
+      "id": "season-3",
+      "title": "Machine Learning Through the Lens of Statistical Mechanics",
+      "shortTitle": "Season 3",
+      "description": "Fall 2026 lineup exploring machine learning through the lens of statistical mechanics.",
+      "dates": "Fall 2026",
+      "page": "season-3.html",
+      "status": "active",
+      "hero": {
+        "eyebrow": "Current Season",
+        "title": "Machine Learning Through the Lens of Statistical Mechanics",
+        "subtitle": "A fall 2026 series exploring machine learning through the lens of statistical mechanics—from Hopfield networks and phase transitions to the statistical physics of learning.",
+        "image": "assets/images/tabs/statmech4ml_header.jpeg",
+        "imageAlt": "Cover of Generative AI and Stochastic Thermodynamics: A Tale of Free Energies",
+        "credit": "image credit: Welling, Max, Sirui Lu, and Lars Holdijk. \"Generative AI and Stochastic Thermodynamics: A Tale of Free Energies.\" Cambridge University Press."
       }
     }
   ]

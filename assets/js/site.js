@@ -1,6 +1,5 @@
 (function () {
   const DATA_URL = 'assets/data/site.json';
-  let cache = null;
   let navIndicatorFrame = null;
 
   document.addEventListener('DOMContentLoaded', initSite);
@@ -11,15 +10,15 @@
     window.addEventListener('resize', handleNavResize, { passive: true });
 
     try {
-      cache = await loadSiteData();
-      window.siteData = cache; // expose for page-specific scripts
-      renderSiteTitle(cache);
-      buildPageNav(cache);
-      buildSeasonNav(cache);
-      renderJoinAction(cache);
-      highlightActiveNav(cache);
-      document.dispatchEvent(new CustomEvent('site:data', { detail: cache }));
-      renderSponsors(cache);
+      const data = await loadSiteData();
+      window.siteData = data; // expose for page-specific scripts
+      renderSiteTitle(data);
+      buildPageNav(data);
+      buildSeasonNav(data);
+      renderJoinAction(data);
+      highlightActiveNav(data);
+      document.dispatchEvent(new CustomEvent('site:data', { detail: data }));
+      renderSponsors(data);
       scheduleNavIndicatorUpdate();
     } catch (error) {
       console.error('Failed to initialise site data', error);
@@ -27,8 +26,7 @@
   }
 
   async function loadSiteData() {
-    if (cache) return cache;
-    const response = await fetch(DATA_URL, { cache: 'no-store' });
+    const response = await fetch(DATA_URL);
     if (!response.ok) {
       throw new Error(`Failed to load ${DATA_URL} (${response.status})`);
     }
@@ -38,7 +36,7 @@
   function renderSiteTitle(data) {
     const titleEl = document.querySelector('[data-site-title]');
     if (titleEl) {
-      titleEl.textContent = data?.site?.title || 'Journal Club';
+      titleEl.textContent = data?.site?.shortTitle || data?.site?.title || 'Journal Club';
     }
   }
 

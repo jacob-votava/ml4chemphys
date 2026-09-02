@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#14171c" media="(prefers-color-scheme: dark)" />
   <title>About | Machine Learning in Chemical Physics @ Princeton</title>
   <meta name="description" content="About Machine Learning in Chemical Physics @ Princeton." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,7 +19,7 @@
 <body class="site" data-page="about">
   <header class="site-header">
     <div class="site-header__inner">
-      <a class="site-logo" href="index.html" data-site-title>Machine Learning in Chemical Physics @ Princeton</a>
+      <a class="site-logo" href="index.html" data-site-title>ML in Chemical Physics @ Princeton</a>
       <nav class="site-nav" aria-label="Primary navigation">
         <button class="site-nav__toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav-panel">Menu</button>
         <div class="site-nav__panel" id="site-nav-panel" data-nav-panel>
@@ -38,7 +41,8 @@
         </p>
       </div>
       <div class="hero__support hero__support--logo">
-        <img class="hero__support-logo" src="assets/images/tabs/gathering-tigers.png" alt="Machine Learning in Chemical Physics badge" />
+        <img class="hero__support-logo" src="assets/images/tabs/about.png" alt="Rendered simulation snapshot of a cis-polybutadiene chain" />
+        <p class="hero__support-credit">A render of cis-polybutadiene simulated with AIMNet2. The conformational complexity and relevant time and length scales of polymers made them inaccessible to electronic structure methods until the advent of machine-learned potentials.</p>
       </div>
     </section>
 
@@ -53,13 +57,7 @@
         <h2 class="people__title">Organizers</h2>
         <p class="people__subtitle">Graduate student leads who coordinate programming and discussions.</p>
       </div>
-      <div class="about__grid" data-about-organizers>
-        <article class="organizer-card organizer-card--placeholder">
-          <div class="organizer-card__body">
-            <h3 class="organizer-card__name">Add organizer profiles in assets/data/site.json</h3>
-          </div>
-        </article>
-      </div>
+      <div class="about__grid" data-about-organizers></div>
     </section>
 
     <section class="people people--advisors" data-advisors-section>
@@ -67,13 +65,7 @@
         <h2 class="people__title">Faculty Advisors</h2>
         <p class="people__subtitle">Faculty mentors guiding our seasonal themes and discussions.</p>
       </div>
-      <div class="about__grid" data-about-advisors>
-        <article class="organizer-card organizer-card--placeholder">
-          <div class="organizer-card__body">
-            <h3 class="organizer-card__name">Add faculty advisors in assets/data/site.json</h3>
-          </div>
-        </article>
-      </div>
+      <div class="about__grid" data-about-advisors></div>
     </section>
 
     <section class="sponsors" data-sponsor-section>
