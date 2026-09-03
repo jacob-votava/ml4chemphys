@@ -10,7 +10,13 @@
       "presenter": "Jacob Votava",
       "presenterLink": "https://www.linkedin.com/in/jacobvotava/",
       "time": "12:30 PM",
-      "location": "41 Williams St 274"
+      "location": "41 Williams St 274",
+      "paper": {
+        "title": "Spin-glass models of neural networks",
+        "authors": "Daniel J. Amit, Hanoch Gutfreund, Haim Sompolinsky",
+        "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.1007",
+        "screenshot": "assets/images/season-3/paper-1.png"
+      }
     },
     {
       "title": "Hard Sphere Phase Transitions",
