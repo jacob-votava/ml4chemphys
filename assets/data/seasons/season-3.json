@@ -5,7 +5,7 @@
   "listDescription": "Fall 2026 schedule and speaker lineup. LOCATION: PU Press Building 274 (41 Williams St, second floor conference room). Note: the Oct 6 session meets at 4:00 PM, and there is no session on Oct 20 (fall recess).",
   "presentations": [
     {
-      "title": "Introduction and Hopfield Networks",
+      "title": "Hopfield networks, memorization, and phase transitions",
       "date": "2026-09-15",
       "presenter": "Jacob Votava",
       "presenterLink": "https://www.linkedin.com/in/jacobvotava/",
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "title": "Hard Sphere Phase Transitions",
+      "title": "Generalization and hard sphere phase transitions",
       "date": "2026-09-22",
       "presenter": "Sam Dawley",
       "presenterLink": "https://www.linkedin.com/in/sam-dawley-0ab5651a8/",
