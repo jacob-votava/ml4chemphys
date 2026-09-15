@@ -16,7 +16,14 @@
         "authors": "Daniel J. Amit, Hanoch Gutfreund, Haim Sompolinsky",
         "link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.1007",
         "screenshot": "assets/images/season-3/paper-1.png"
-      }
+      },
+      "resources": [
+        {
+          "type": "slides",
+          "label": "Download presentation",
+          "url": "assets/slides/season-3/jacob-hopfield.pptx"
+        }
+      ]
     },
     {
       "title": "Hard Sphere Phase Transitions",
@@ -24,7 +31,13 @@
       "presenter": "Sam Dawley",
       "presenterLink": "https://www.linkedin.com/in/sam-dawley-0ab5651a8/",
       "time": "12:30 PM",
-      "location": "41 Williams St 274"
+      "location": "41 Williams St 274",
+      "paper": {
+        "title": "Jamming transition as a paradigm to understand the loss landscape of deep neural networks",
+        "authors": "Mario Geiger, Stefano Spigler, Stéphane d'Ascoli, Levent Sagun, Marco Baity-Jesi, Giulio Biroli, Matthieu Wyart",
+        "link": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.100.012115",
+        "screenshot": "assets/images/season-3/paper-2.png"
+      }
     },
     {
       "title": "",
