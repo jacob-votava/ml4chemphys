@@ -37,7 +37,14 @@
         "authors": "Mario Geiger, Stefano Spigler, Stéphane d'Ascoli, Levent Sagun, Marco Baity-Jesi, Giulio Biroli, Matthieu Wyart",
         "link": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.100.012115",
         "screenshot": "assets/images/season-3/paper-2.png"
-      }
+      },
+      "resources": [
+        {
+          "type": "slides",
+          "label": "Download presentation",
+          "url": "assets/slides/season-3/sam-jamming.pptx"
+        }
+      ]
     },
     {
       "title": "",
@@ -53,7 +60,13 @@
       "presenter": "Bethany Yuan",
       "presenterLink": "https://www.linkedin.com/in/bethany-beijia-yuan-94b715184/",
       "time": "4:00 PM",
-      "location": "41 Williams St 274"
+      "location": "41 Williams St 274",
+      "paper": {
+        "title": "When Does Depth Matter For In-Context Learning? Adaptive Inference in Deep Transformers",
+        "authors": "Ravin Raj, Gautam Reddy",
+        "link": "https://arxiv.org/abs/2606.16694",
+        "screenshot": "assets/images/season-3/paper-3.png"
+      }
     },
     {
       "title": "",
