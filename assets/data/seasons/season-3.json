@@ -66,7 +66,14 @@
         "authors": "Ravin Raj, Gautam Reddy",
         "link": "https://arxiv.org/abs/2606.16694",
         "screenshot": "assets/images/season-3/paper-3.png"
-      }
+      },
+      "resources": [
+        {
+          "type": "slides",
+          "label": "Download presentation",
+          "url": "assets/slides/season-3/bethany-transformers.pptx"
+        }
+      ]
     },
     {
       "title": "",
@@ -74,7 +81,13 @@
       "presenter": "Isabella Furrick",
       "presenterLink": "https://www.linkedin.com/in/isabella-furrick-452294192/",
       "time": "12:30 PM",
-      "location": "41 Williams St 274"
+      "location": "41 Williams St 274",
+      "paper": {
+        "title": "Entropy-SGD: Biasing Gradient Descent Into Wide Valleys",
+        "authors": "Pratik Chaudhari, Anna Choromanska, Stefano Soatto, Yann LeCun, Carlo Baldassi, Christian Borgs, Jennifer Chayes, Levent Sagun, Riccardo Zecchina",
+        "link": "https://arxiv.org/abs/1611.01838",
+        "screenshot": "assets/images/season-3/paper-4.png"
+      }
     },
     {
       "title": "A statistical physics framework for optimal learning",
