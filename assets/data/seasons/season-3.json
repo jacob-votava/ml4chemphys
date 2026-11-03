@@ -52,7 +52,13 @@
       "presenter": "Andrea Aude",
       "presenterLink": "https://www.linkedin.com/in/andreaaude/",
       "time": "12:30 PM",
-      "location": "41 Williams St 274"
+      "location": "41 Williams St 274",
+      "paper": {
+        "title": "Thermodynamics-inspired explanations of artificial intelligence",
+        "authors": "Shams Mehdi, Pratyush Tiwary",
+        "link": "https://www.nature.com/articles/s41467-024-51970-x",
+        "screenshot": "assets/images/season-3/paper-6.png"
+      }
     },
     {
       "title": "",
@@ -87,7 +93,14 @@
         "authors": "Pratik Chaudhari, Anna Choromanska, Stefano Soatto, Yann LeCun, Carlo Baldassi, Christian Borgs, Jennifer Chayes, Levent Sagun, Riccardo Zecchina",
         "link": "https://arxiv.org/abs/1611.01838",
         "screenshot": "assets/images/season-3/paper-4.png"
-      }
+      },
+      "resources": [
+        {
+          "type": "slides",
+          "label": "Download presentation",
+          "url": "assets/slides/season-3/izzy-entropyGD.pptx"
+        }
+      ]
     },
     {
       "title": "A statistical physics framework for optimal learning",
@@ -97,8 +110,17 @@
       "location": "41 Williams St 274",
       "paper": {
         "title": "A statistical physics framework for optimal learning",
-        "link": "https://doi.org/10.1093/pnasnexus/pgag182"
-      }
+        "authors": "Francesca Mignacco, Francesco Mori",
+        "link": "https://doi.org/10.1093/pnasnexus/pgag182",
+        "screenshot": "assets/images/season-3/paper-5.png"
+      },
+      "resources": [
+        {
+          "type": "slides",
+          "label": "Download presentation",
+          "url": "assets/slides/season-3/francesca-optimal-learning.pdf"
+        }
+      ]
     }
   ]
 }
